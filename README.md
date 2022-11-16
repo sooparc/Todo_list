@@ -6,9 +6,8 @@ My Todo list app was built using these technologies.
 - CSS3
 - Figma (Company logo on the login page)
 
-There are two pages: Login & Todo List 
 
-I spent a day (Login page: about 3 hours & Todo list page: about 3 hours) to build this simple todo list app. 
+## There are two pages: Login & Todo List 
 
 **Login page**
 - Cors error & Form is validate onChage : 1 hour
