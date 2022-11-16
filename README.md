@@ -11,7 +11,7 @@
 
 **Login page**
 - Cors error & Form is validate onChage : 1 hour
-- The rest of the codes : 30 minutes
+- Login page : 30 minutes
 - Styling : 1.5 hours (Company logo took about 30 minutes)
 
 
