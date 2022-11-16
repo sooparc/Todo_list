@@ -1,11 +1,10 @@
-# Todo_list
-
+# Todo_list 📝
 My Todo list app (Front end) was built using these technologies.
 
-- React.js
-- HTML5
-- CSS3 
-- Figma (Company logo on the login page)
+****- React.js
+****- HTML5
+****- CSS3 
+****- Figma (Company logo on the login page)
 
 On a desktop screen
 
