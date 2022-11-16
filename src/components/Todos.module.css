@@ -1,0 +1,93 @@
+/* div box styling */
+.container {
+  overflow-y: scroll;
+  max-height: 300px;
+  padding: 20px 0px;
+}
+
+/* input, font, button styling */
+
+.deleteButton {
+  margin-top: 20px;
+  margin-left: 7px;
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border: 1px solid #1276b8;
+  background-color: #fff;
+  color: #1276b8;
+}
+
+.editButton {
+  margin-top: 20px;
+  margin-left: 10px;
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border: 1px solid #1276b8;
+  background-color: #fff;
+  color: #1276b8;
+}
+
+.saveButton {
+  margin-top: 20px;
+  margin-left: 10px;
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border: 1px solid #1276b8;
+  background-color: #fff;
+  color: #1276b8;
+}
+
+.todoItems {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  border: 1px solid #ccc;
+}
+
+.todos {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+@media only screen and (max-width: 600px) {
+  /* input, font, button styling */
+  .deleteButton {
+    padding: 3px;
+    font-size: 10px;
+  }
+
+  .editButton {
+    margin-left: 10px;
+    padding: 3px;
+    font-size: 10px;
+  }
+
+  .saveButton {
+    padding: 3px;
+    font-size: 10px;
+  }
+
+  .todos {
+    width: 60%;
+    font-size: 13px;
+  }
+
+  .todoItems {
+    padding: 7px 10px;
+    width: 60%;
+    line-height: 20px;
+    font-size: 12px;
+  }
+}

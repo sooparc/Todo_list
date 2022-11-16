@@ -1,0 +1,210 @@
+button {
+  padding: 12px 90px;
+  margin-top: 50px;
+  border-radius: 5px;
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background-color: #0087ac;
+  border: 1px solid #0087ac;
+  color: #fff;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 80px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 2em;
+  letter-spacing: 8px;
+}
+
+input {
+  display: block;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 5px 10px 5px 45px;
+  font-size: 13px;
+  line-height: 25px;
+  width: 100%;
+  outline: 0;
+}
+
+label {
+  display: block;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+}
+
+/* div box styling */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.leftbox {
+  position: absolute;
+  left: -1%;
+  width: 50%;
+  transition: 1s all ease;
+}
+
+.logo {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 32%;
+  top: 110%;
+  opacity: 0.9;
+}
+
+.mainBox {
+  background: #fff;
+  width: 650px;
+  height: 415px;
+  position: absolute;
+  top: 25%;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.mainContainer {
+  height: 100vh;
+  background: hsla(186, 33%, 94%, 1);
+  background: linear-gradient(
+    90deg,
+    hsla(186, 33%, 94%, 1) 0%,
+    hsla(216, 41%, 79%, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(186, 33%, 94%, 1) 0%,
+    hsla(216, 41%, 79%, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(186, 33%, 94%, 1) 0%,
+    hsla(216, 41%, 79%, 1) 100%
+  );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EBF4F5", endColorstr="#B5C6E0", GradientType=1 );
+}
+
+.signinBox {
+  position: absolute;
+  top: -10%;
+  left: 45%;
+  background: #a9d6e5;
+  width: 320px;
+  height: 500px;
+  border-radius: 5px;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease-in-out;
+  z-index: 2;
+}
+
+/* font & button styling */
+
+.firstSpan {
+  color: #09275f;
+}
+
+.leftboxText {
+  font-size: 0.8em;
+  letter-spacing: 1.5px;
+  color: #5f5f5f;
+  text-align: center;
+}
+
+.title {
+  color: #fff;
+  font-size: 1.8em;
+  line-height: 1.1em;
+  letter-spacing: 3px;
+  text-align: center;
+  font-weight: 300;
+  margin-top: 30%;
+  position: relative;
+  top: 15px;
+}
+
+.secondSpan {
+  color: #aeaeae;
+}
+
+/* form styling */
+
+.errMsg {
+  font-family: Arial, Helvetica, sans-serif !important;
+  margin-top: 0;
+  text-align: start;
+  font-size: 10px;
+  color: red;
+}
+
+.formContainer {
+  padding-top: 5px;
+  max-width: 200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputForm {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.inputIcon {
+  position: absolute;
+  left: 15px;
+  top: 0;
+  font-size: 15px;
+  color: #09275f;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  /* div box styling */
+  .mainBox {
+    width: 300px;
+    height: 0px;
+    top: 15%;
+    box-shadow: 0 0 0 0;
+  }
+
+  .signinBox {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 500px;
+  }
+
+  /* font & button styling */
+  .errMsg {
+    font-size: 10px;
+  }
+
+  .leftboxText {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .title {
+    display: none;
+  }
+}

@@ -1,0 +1,50 @@
+/* div box styling */
+.container {
+  margin-top: 20px;
+}
+
+/* form, button styling */
+.inputTodo {
+  display: inline-block;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 5px 10px 5px 45px;
+  font-size: 14px;
+  line-height: 25px;
+  width: 50%;
+  outline: 0;
+  border: 1px solid #ccc;
+}
+
+.saveButton {
+  display: inline-block;
+  padding: 10px;
+  margin-top: 0;
+  margin-left: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border: 1px solid #1276b8;
+  background-color: #fff;
+  color: #1276b8;
+}
+
+@media only screen and (max-width: 600px) {
+  /* div box styling */
+  .container {
+    margin-top: 15px;
+  }
+
+  /* form, button styling */
+  .inputTodo {
+    font-size: 12px;
+    line-height: 20px;
+    width: 49%;
+  }
+
+  .saveButton {
+    padding: 7.5px;
+    font-size: 12px;
+  }
+}

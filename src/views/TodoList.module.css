@@ -1,0 +1,184 @@
+/* div box styling */
+.container {
+  width: 50%;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  overflow-y: hidden;
+
+  background: hsla(186, 33%, 94%, 1);
+  background: linear-gradient(
+    90deg,
+    hsla(186, 33%, 94%, 1) 0%,
+    hsla(216, 41%, 79%, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(186, 33%, 94%, 1) 0%,
+    hsla(216, 41%, 79%, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(186, 33%, 94%, 1) 0%,
+    hsla(216, 41%, 79%, 1) 100%
+  );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EBF4F5", endColorstr="#B5C6E0", GradientType=1 );
+}
+
+/* form, input, icon, button styling */
+.inputForm {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.inputIcon {
+  position: absolute;
+  left: 130px;
+  top: 0;
+  font-size: 15px;
+  color: #808080;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newButton {
+  margin-top: 0px;
+  margin-left: 10px;
+  padding: 10px;
+  border: 1px solid #1276b8;
+  background-color: #fff;
+  color: #1276b8;
+}
+
+.searchInput {
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 5px 10px 5px 45px;
+  font-size: 13px;
+  line-height: 25px;
+  width: 50%;
+  outline: 0;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 800;
+  margin: 40px 0px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #1276b8;
+}
+
+/* logout button styling */
+.logoutButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  border: 1px solid #1276b8;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #1276b8;
+}
+
+/* footer styling */
+.divider {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  padding: 15px;
+  width: 70%;
+}
+
+.footerText {
+  color: #808080;
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.icons {
+  display: inline-block;
+}
+
+.icon {
+  color: #808080;
+  margin-left: 15px;
+  font-size: 20px;
+}
+.icon:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+@media only screen and (max-width: 600px) {
+  /* div box styling */
+  .container {
+    width: 60%;
+  }
+
+  /* form, input, icon, button styling */
+  .inputForm {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .inputIcon {
+    left: 20px;
+  }
+
+  .newButton {
+    padding: 7.5px;
+  }
+
+  .searchInput {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .title {
+    font-size: 25px;
+    margin: 30px 0px;
+  }
+
+  /* logout button styling */
+  .logoutButton {
+    padding: 7px;
+    font-size: 10px;
+  }
+
+  /* footer styling */
+  .footerText {
+    font-size: 12px;
+  }
+
+  .icon {
+    font-size: 16px;
+  }
+}
