@@ -8,11 +8,27 @@ My Todo list app (Front end) was built using these technologies.
 
 There are two pages: Login & Todo List 
 
-I spent a day (Login page: about 2 hours & Todo list page: about 4 hours) to build this simple todo list app. 
+I spent a day (Login page: about 3 hours & Todo list page: about 3 hours) to build this simple todo list app. 
 
 **For the login page**, I was getting a cors error message when API was called with a POST request. In order to fix this, I had to add "{ "Content-Type": "application/x-www-form-urlencoded" }" in the headers. I'm very familiar with this type of errors from my experience, so it didn't take too long to figure it out.
 
 To make the form to be validate onChange, I had to look up some documents and it took about 30 minutes. In order to do this, I added /^[a-zA-Z0-9.!#$%&'*+/=?^ `{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/; `in the form onChange and see if the email address matches with it. Otherwise it will fail the validation and give an error message.
+
+**Login page**
+- Cors error & Form is validate onChage : 1 hour
+- The rest of the codes : 30 minutes
+- Styling : 1.5 hours (Company logo took about 30 minutes)
+
+
+**For the todo list page**, I didn't get any errors, but I spent the most time on the searchbar & save and delete new todos in the local storage. 
+In order to make the searchbar filters the list, I used a Javascript default funtion "filter" and "includes". If the value of input doesn't match with todos, it just simply hides them. 
+
+When the user makes or deletes new todos, i made sure that the new todos are saved & deleted in the local storage.
+
+**Todo list page**
+- Todolist page: 1 hour
+- TodoForm & Todos (components): 1 hour
+- Styling : 1 hour
 
 
 On a desktop screen
