@@ -7,9 +7,7 @@
 - Figma (Company logo on the login page)
 
 
-## There are two pages: Login & Todo List 
-
-**Login page**
+## Login page
 - Cors error & Form is validate onChage : 1 hour
 - Login page : 30 minutes
 - Styling : 1.5 hours (Company logo took about 30 minutes)
@@ -21,7 +19,7 @@
 To make the form to be validate onChange, I had to look up some documents and it took about 30 minutes. In order to do this, I added /^[a-zA-Z0-9.!#$%&'*+/=?^ `{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/; `in the form onChange and see if the email address matches with it. Otherwise it will fail the validation and give an error message.
 
 
-**Todo list page**
+## Todo list page
 - Todolist page: 1 hour
 - TodoForm & Todos (components): 1 hour
 - Styling : 1 hour
