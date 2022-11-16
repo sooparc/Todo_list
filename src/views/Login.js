@@ -45,7 +45,7 @@ const Login = () => {
         navigate("/home");
       })
       .catch(function (error) {
-        setLoginErr("Invalid Credentials");
+        setLoginErr("The server could not be reached. Please try again later.");
         setBusy(false);
       });
   };
@@ -128,7 +128,6 @@ const Login = () => {
                 </div>
                 {passwordErr && <p className={classes.errMsg}>{passwordErr}</p>}
 
-                {loginErr && <p className={classes.errMsg}>{loginErr}</p>}
                 <button
                   className={
                     emailErr || passwordErr || busy ? "invalid-button" : ""
@@ -137,6 +136,7 @@ const Login = () => {
                 >
                   Login
                 </button>
+                {loginErr && <p className={classes.loginErrMsg}>{loginErr}</p>}
               </form>
             </div>
           </div>
