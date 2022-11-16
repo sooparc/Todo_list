@@ -10,7 +10,7 @@
 ## Login page
 - Cors error & Form is validate onChage : 1 hour
 - Login page : 30 minutes
-- Styling : 1.5 hours (Company logo took about 30 minutes)
+- Styling : 1 hour (Company logo took about 30 minutes)
 
 
 **For the login page**, I was getting a cors error message when API was called with a POST request. In order to fix this, I had to add "{ "Content-Type": "application/x-www-form-urlencoded" }" in the headers. I'm very familiar with this type of errors from my experience, so it didn't take too long to figure it out.
