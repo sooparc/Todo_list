@@ -22,7 +22,7 @@ To make the form to be validate onChange, I had to look up some documents and it
 ## Todo list page
 - Todolist page:  40 minutes
 - TodoForm & Todos (components): 40 minutes
-- Styling : 1 hour
+- Styling : 40 minutes
 
 
 **For the todo list page**, I didn't get any errors, but I spent the most time on the searchbar & save and delete new todos in the local storage. 
