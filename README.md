@@ -1,5 +1,5 @@
 # Todo_list 📝
-## My Todo list app was built using these technologies.
+My Todo list app was built using these technologies.
 
 - React.js
 - HTML5
