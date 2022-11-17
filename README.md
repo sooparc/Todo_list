@@ -26,7 +26,7 @@ To make the form to be validate onChange, I had to look up some documents and it
 
 
 **For the todo list page**, I didn't get any errors, but I spent the most time on the searchbar & save and delete new todos in the local storage. 
-In order to make the searchbar filters the list, I used a Javascript default funtion "filter" and "includes". If the value of input doesn't match with todos, it just simply hides them. 
+In order to make the searchbar filters the list, I used a Javascript default function "filter" and "includes". If the value of input doesn't match with todos, it just simply hides them. 
 
 When the user makes or deletes new todos, i made sure that the new todos are saved & deleted in the local storage.
 
