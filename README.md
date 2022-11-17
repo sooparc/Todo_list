@@ -10,7 +10,7 @@
 ## Login page
 - Cors error & Form is validate onChage : 1 hour
 - Login page : 30 minutes
-- Styling : 1 hour (Company logo took about 30 minutes)
+- Styling : 1 hour (Company logo took about 20 minutes)
 
 
 **For the login page**, I was getting a cors error message when API was called with a POST request. In order to fix this, I had to add "{ "Content-Type": "application/x-www-form-urlencoded" }" in the headers. I'm very familiar with this type of errors from my experience, so it didn't take too long to figure it out.
@@ -20,8 +20,8 @@ To make the form to be validate onChange, I had to look up some documents and it
 
 
 ## Todo list page
-- Todolist page: 1 hour
-- TodoForm & Todos (components): 1 hour
+- Todolist page:  40 minutes
+- TodoForm & Todos (components): 40 minutes
 - Styling : 1 hour
 
 
